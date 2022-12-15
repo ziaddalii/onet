@@ -1,0 +1,127 @@
+.country-accordion{
+    background: #FFFFFF 0% 0% no-repeat;
+    box-shadow: 0px 0px 40px #4C00A926;
+    border-radius: 10px;
+    width: 22%;
+    border: none!important;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .country-accordion {
+        width: 44%;
+    }
+    .country-card{
+        width: 44%!important;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .country-accordion {
+        width: 100%;
+    }
+    .country-card{
+        width: 100%!important;
+    }
+  }
+
+  @media screen and (min-width: 1900px) {
+    .card-img{
+        width: 60%!important;
+        top: -111px!important;
+        left: 4px!important;
+    }
+    .country-card{
+        margin-top: 96px!important;
+    }
+  }
+  
+.card-types{
+    padding: 13px 15px;
+    background: #FFFFFF 0% 0% no-repeat;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.card-title{
+    margin: 0;
+}
+.card-type{
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.not-active:hover{
+    color: #4A4A4A!important;
+}
+.not-active{
+    color: #4A4A4A!important;
+}
+/* .card-type:active{
+    background: #FF9133 0% 0% no-repeat;
+    border-radius: 5px;
+    color: white;
+} */
+
+.active{
+    background: #FF9133 0% 0% no-repeat;
+    border-radius: 5px;
+    color: white!important;
+}
+
+.active:hover{
+    color: white;
+}
+
+
+.country-card{
+    color:white!important;
+    font-weight: 300;
+    font-size: .8rem;
+    padding: 10px 20px;
+    position: relative;
+    width: 30%;
+    /* min-width: 30%; */
+    display:inline-block;
+    margin-top: 40px;
+}
+
+.card-img{
+    width: 70%;
+    top: -50px;
+    left: -12px;
+    position: absolute;
+    /* box-shadow: 10px 10px 20px #09462547; */
+}
+.card-name{
+    font-size: .8rem;
+}
+.country-name{
+    font-size: .8rem;
+}
+.card-btn{
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.card-group{
+    padding: 10px 0;
+    /* align-items: center; */
+}
+
+/* Countries cards */
+.bahrain-card{
+    background: transparent linear-gradient(90deg, #9E1324 0%, #860F1F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+
+.turkey-card{
+    background: transparent linear-gradient(90deg, #B81F35 0%, #AA1D34 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.btn-hover{
+    background: #FB0066 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: white;
+}
+.btn-hover:hover{
+    background-color: #d70458!important;
+    color: white;
+}
+
+.text-color{
+    color: #4A4A4A;
+}
+  

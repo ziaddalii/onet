@@ -1,0 +1,57 @@
+.how-works-overlay1{
+    background: transparent  url('../images/Path 1677.png') no-repeat;
+    position: absolute;
+    top: -559px;
+    left: 1046px;
+    width: 934px;
+    height: 942px;
+    transform: matrix(0.69, -0.72, 0.72, 0.69, 0, 0);
+    overflow: hidden;
+}
+.how-works-overlay2{
+    background: transparent  url('../images/Path 1951.png') no-repeat;
+    position: absolute;
+    top: 500px;
+    left: -178.21029663085938px;
+    width: 800px;
+    height: 481px;
+    /* transform: matrix(0.69, -0.72, 0.72, 0.69, 0, 0); */
+    overflow: hidden;
+    z-index: 0;
+}
+
+.phone-photo1{
+    background: transparent url('../images/Group 1562.png') 0% 0% no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 465px;
+}
+
+.phone-photo2{
+    background: transparent url('../images/Group 1563.png') 0% 0% no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 465px;
+}
+
+.phone-photo3{
+    background: transparent url('../images/Group 1564.png') 0% 0% no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 465px;
+}
+
+.phone-photo4{
+    background: transparent url('../images/Group 1565.png') 0% 0% no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 465px;
+}
+
+.phone-text{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+

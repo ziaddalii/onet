@@ -1,0 +1,4 @@
+.global-card{
+    background: transparent linear-gradient(90deg, #0984A0 0%, #070841 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+}

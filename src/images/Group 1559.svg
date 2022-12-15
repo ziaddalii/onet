@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="50" viewBox="0 0 170 50">
+  <g id="Group_1559" data-name="Group 1559" transform="translate(-1100 -4369.514)">
+    <rect id="Rectangle_2803" data-name="Rectangle 2803" width="170" height="50" rx="6" transform="translate(1100 4369.514)" fill="#fff"/>
+    <g id="Group_641" data-name="Group 641" transform="translate(707 -1904.714)">
+      <path id="google-play" d="M42.2,12.816,29.768.711,45.589,9.528ZM26.523,0A2.121,2.121,0,0,0,25.3,1.931V26.069A2.121,2.121,0,0,0,26.523,28L40.98,14ZM50.48,12.34l-3.319-1.865L43.46,14l3.7,3.528,3.386-1.865a2.153,2.153,0,0,0-.068-3.326ZM29.768,27.294l15.821-8.817L42.2,15.19Z" transform="translate(397.7 6283)" fill="#5204a5"/>
+      <text id="حمل_التطبيق_من" data-name="حمل التطبيق من" transform="translate(457.912 6282.214)" fill="#5204a5" font-size="10" font-family="Noor-Regular, Noor" opacity="0.5"><tspan x="0" y="10">حمل التطبيق من</tspan></text>
+      <text id="Google_Play" data-name="Google Play" transform="translate(457.912 6294)" fill="#5204a5" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="1" y="15">Google</tspan><tspan y="15" font-family="Noor-Regular, Noor"> </tspan><tspan y="15">Play</tspan></text>
+    </g>
+  </g>
+</svg>

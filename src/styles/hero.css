@@ -1,0 +1,57 @@
+.overlay{
+    /* background-image: Group 968@2x.png; */
+}
+
+.hero-overlay{
+    background: transparent  url('../images/Group 2618.png') no-repeat;
+    position: absolute;
+    top: 105px;
+    left: 538px;
+    width: 1062px;
+    height: 485px;
+    /* opacity: 0.89; */
+    z-index: 0;
+
+}
+.navbar-a{
+    padding-top: 0.3125rem!important;
+    padding-bottom: 0.3125rem!important;
+    font-size: 1rem!important;
+    text-decoration: none!important;
+    white-space: nowrap!important;
+    position: relative;
+    overflow: hidden;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-a{
+        font-size: .7rem!important;
+    }
+    .hero-container{
+        margin-top: 80px!important;
+    }
+    .hero-items-container{
+        margin-top: 100px;
+        font-size: 2.5rem!important;
+    }
+
+
+  }
+.line::after {
+    background-color: #4C00A9;
+    content: "";
+    width: 0;
+    height: 2.5px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.35s ease 0s;
+    position: absolute;
+    border-radius: 1px;
+  }
+  
+  .line:hover::after {
+    width: 100%;
+  }
+
+ 

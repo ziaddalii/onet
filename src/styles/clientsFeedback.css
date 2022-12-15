@@ -1,0 +1,121 @@
+.clients-feedback-logo-overlay{
+    background: transparent  url('../images/Path 2540.png') no-repeat;
+    position: absolute;
+    top: -151px;
+    left: 1011px;
+    width: 934px;
+    height: 942px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.clients-feedback-circle-overlay{
+  position: absolute;
+  border: 1px solid #6F2AC2;
+  border-radius: 50%;
+  opacity: 0.2;
+  width: 550px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+
+.feedback-card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 30px #6F2AC217;
+  
+  border-radius: 10px;
+}
+
+.feedback-mark{
+  top: -7.5%;
+  position: absolute;
+}
+
+.feedback-info{
+  background: #F9F6FC 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.feedback-flag{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+}
+
+.feedback-stars{
+  margin: 0 0 2rem 0;
+}
+
+
+.download-img{
+  background: transparent linear-gradient(90deg, #FF9133 0%, #4C00A9 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  width: 100%;
+  /* max-height: 430px; */
+  position: relative;
+}
+
+
+.download-details{
+  padding: 6rem 4rem;
+}
+.download-title{
+  margin:3rem 0;
+  font-size: 3rem;
+  color: white;
+}
+
+.download-span{
+  margin:3rem 0;
+  color: #FEE9F1;
+  font-weight: 300;
+}
+
+.download-btns{
+  margin: 3rem 0;
+}
+.download-android img, .download-apple img{
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: contain; */
+
+}
+
+.phone-img{
+  /* position: absolute;
+  bottom: 0px;
+  left: 25px; */
+  /* width: 100%; */
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1100px) {
+  .download-title{
+    font-size: 1.5rem;
+  }
+  .download-span{
+    font-size: .7rem;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .download-details{
+    text-align: center!important;
+
+  }
+  .download-title{
+    font-size: 1.5rem;
+  }
+  .download-span{
+    font-size: .7rem;
+  }
+  
+}
+

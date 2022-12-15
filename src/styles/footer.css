@@ -1,0 +1,34 @@
+.section-footer{
+    /* padding: 6rem; */
+    background: #4C00A9 0% 0% no-repeat padding-box;
+}
+/* .footer-column{
+    padding: 0 2rem;
+} */
+.column-title{
+    margin: 2rem 0;
+    color: #F2E8FE;
+}
+
+.column-info{
+    font-weight: 300;
+    color: #E8D5FF;
+    font-size: .7rem;
+    margin: 1rem 0;
+}
+
+.footer-copyrights{
+    background: #FB0066 0% 0% no-repeat padding-box;
+    height: 60px;
+}
+
+.footer-text{
+    color: #FEF6F9;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-text{
+        font-size: .5rem!important;
+    }
+  }
