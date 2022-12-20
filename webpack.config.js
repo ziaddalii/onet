@@ -1,5 +1,6 @@
 const path = require('path')
-const HTMLWebpacklPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
+// const HTMLWebpacklPlugin = require('html-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
