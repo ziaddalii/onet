@@ -18,9 +18,6 @@ import WhyWe from './WhyWe'
 import ClientsFeedback from './ClientsFeedback'
 import Footer from './Footer'
 import CardsTypes from './CardsTypes';
-import GlobalCards from './GlobalCards';
-import "../styles/slick.css"; 
-import "../styles/slickTheme.css"; 
 export default class extends Component {
   render() {
     return (

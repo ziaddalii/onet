@@ -1,22 +1,29 @@
-// i want a code to add the className "active" to the `Link` which is clicked that changes the window location path
-import React  from 'react'
-import {Link, useMatch, useResolvedPath} from "react-router-dom";
+import React, {useEffect, useState}  from 'react'
+import {Link, useMatch, useResolvedPath, useLocation} from "react-router-dom";
 
 function CardsTypesNav() {
-//   const [active, setActive] = useState(false);
+  const [sectionTitle, setSectionTitle] = useState('');
+  const location = useLocation();
 
-//   function handleClick(e) {
-//     e.preventDefault();
-//     setActive(true);
-//     // You can also use the `history` object from React Router
-//     // to change the window location path.
-//   }
+  useEffect(() => {
+    const currentLocation = location.pathname;
 
-  return (
-    <div>
-        <div className='section row col-md-12 d-flex align-items-center justify-content-between' style={{marginBottom:"45px", zIndex:"10"}}>
-            <p className='font-weight-bolder col-md-6' style={{fontSize:"2rem"}}></p>
-            <div className="d-flex text-center card-types justify-content-between col-md-6 bd-highlight" style={{fontSize:"60%",maxWidth:"275px"}}>
+    if (currentLocation === '/') {
+      setSectionTitle('البلدان الشائعة');
+    } else if (currentLocation === '/anothercards') {
+      // Perform some action if the user is on page 2
+    } else if (currentLocation === '/globalcards') {
+      setSectionTitle('البطاقات الشائعة');
+    }
+    console.log('currentPage:', currentLocation);
+    console.log("Section Title:", sectionTitle);
+  }, [location.pathname, sectionTitle]);
+
+    return (
+      <div>
+        <div className='section row col-md-12 d-flex align-items-center justify-content-between' style={{marginBottom:"45px",marginRight:"0", zIndex:"10"}}>
+            <p className='font-weight-bolder col-md-6' style={{fontSize:"2rem"}}>{sectionTitle}</p>
+            <div className="d-flex text-center card-types justify-content-between col-md-6 bd-highlight" style={{fontSize:"57%",maxWidth:"275px"}}>
             
                 <CustomLink to = "/">بطاقات محلية</CustomLink>
                 <CustomLink to = "/anothercards">بطاقات اقليمية</CustomLink>

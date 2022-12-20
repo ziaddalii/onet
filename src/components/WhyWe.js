@@ -6,7 +6,7 @@ function WhyWe() {
 
         <div className='w-75 mx-auto px-0' style={{margin:"82px"}}>
             <div className='section d-flex align-items-center justify-content-between' style={{marginBottom:"45px", }}>
-                <p className='font-weight-bolder textColor' style={{fontSize:"2rem", zIndex:"10"}}>لماذا نحن ؟</p>
+                <p className='font-weight-bolder text-color' style={{fontWeight:"500",fontSize:"42px", zIndex:"10"}}>لماذا نحن ؟</p>
             </div>
 
             <div className='row col-md-12 m-0 justify-content-between'>

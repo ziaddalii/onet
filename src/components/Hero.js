@@ -1,7 +1,6 @@
 import React from 'react';
 function Hero() {
   return (
-    // - overlay and responsive navbar
     <div className='hero-container w-100 h-100 overlay text-color' style={{backgroundColor:"#FBF9FE",opacity:"0.89", marginTop:"60px"}}>
     <div className='hero-overlay' style={{zIndex:-1}}></div>
       <nav className='navbar navbar-expand-lg d-flex align-items-center justify-content-between mx-auto w-75' style={{height:"57.24px", top:"30px", marginBottom:"60px"}}>
@@ -52,8 +51,8 @@ function Hero() {
       </nav>
       <div className='hero-items-container w-75 mx-auto d-flex justify-content-between row-cols-md-2 row-cols-sm-1 flex-row row'>
         <div className='d-flex p-0 flex-column col col-md-6 col-sm-12 justify-content-center'>
-          <p className='font-weight-bolder flex-end mb-0 mt-1' style={{fontSize:"3rem", fontWeight:"400", color:"#4A4A4A"}}>ملتزمين بابقائك</p>
-          <p className='font-weight-bolder flex-end' style={{fontSize:"3rem",fontWeight:"400", color:"#4A4A4A"}}>على تواصل فى كل مكان</p>
+          <p className='font-weight-bolder flex-end mb-0 mt-1' style={{fontSize:"3rem", fontWeight:"500", color:"#4A4A4A"}}>ملتزمين بابقائك</p>
+          <p className='font-weight-bolder flex-end' style={{fontSize:"3rem",fontWeight:"500", color:"#4A4A4A"}}>على تواصل فى كل مكان</p>
           <a className="btn d-flex justify-content-center align-items-center text-white btn-hover" style={{fontSize:" 18px",fontWeight:"400", backgroundColor:"#FB0066", width:"140px", height:"50px", borderRadius:"10px"}} href="#">المزيد</a>
         </div>
         <div className='d-flex p-0 flex-row row row-md-6' style={{margin:"60px 0px"}}>

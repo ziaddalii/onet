@@ -1,3 +1,14 @@
+
+
+.clients-feedback-overlay{
+  background: transparent  url('../images/Path 2540.png') no-repeat;
+  position: absolute;
+  top: -523px;
+  left: 777px;
+  width: 934px;
+  height: 942px;
+  overflow: hidden;
+}
 .clients-feedback-logo-overlay{
     background: transparent  url('../images/Path 2540.png') no-repeat;
     position: absolute;
@@ -11,9 +22,9 @@
 
 .clients-feedback-circle-overlay{
   position: absolute;
-  border: 1px solid #6F2AC2;
+  background-color: transparent;
+  border: 1px solid #6e2ac22a;
   border-radius: 50%;
-  opacity: 0.2;
   width: 550px;
   height: 550px;
   top: 50%;
@@ -22,17 +33,76 @@
   z-index: 0;
 }
 
+@media screen and (max-width: 770px){
+  .clients-feedback-circle-overlay, .clients-feedback-circle-overlay2{
+    display:none;
+  }
+}
+
+.overlay-circle1-flag-position-1{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay-circle1-flag-position-2{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-circle2-flag-position-1{
+  position: absolute;
+  top: 4%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-circle2-flag-position-2{
+  position: absolute;
+  top: 4%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-circle2-flag-position-3{
+  position: absolute;
+  top: 96%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-circle2-flag-position-4{
+  position: absolute;
+  top: 96%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.clients-feedback-circle-overlay2{
+  position: absolute;
+  border: 1px solid #6e2ac22a;
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
 
 .feedback-card{
+  position: relative;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 8px 30px #6F2AC217;
-  
   border-radius: 10px;
 }
 
 .feedback-mark{
-  top: -7.5%;
   position: absolute;
+  top: -6.5%;
 }
 
 .feedback-info{
@@ -106,6 +176,13 @@
 }
 
 @media screen and (max-width: 750px) {
+  .feedback-info{
+    text-align: center;
+    margin:0;
+  }
+  .feedback-name{
+    text-align: center;
+  }
   .download-details{
     text-align: center!important;
 

@@ -9,7 +9,7 @@ function HowWorks() {
         
         <div className='w-75 mx-auto px-0' style={{margin:"82px", overflow:'hidden'}}>
             <div className='section d-flex align-items-center justify-content-between' style={{marginBottom:"45px", }}>
-                <p className='font-weight-bolder text-color' style={{fontSize:"2rem", zIndex:"10"}}>كيف تعمل المنصة ؟</p>
+                <p className='font-weight-bolder text-color' style={{fontWeight:"500",fontSize:"42px", zIndex:"10"}}>كيف تعمل المنصة ؟</p>
             </div>
             <div className='col-md-12 row m-0 d-flex justify-content-between'>
             <div className="mb-3 col-md-3 col-sm-6" style={{ border:"none",zIndex:"10"}}>
