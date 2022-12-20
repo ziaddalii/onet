@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ziaddalii.github.io/onet/",
+  "homepage": "https://ziaddalii.github.io/onet-project/",
   "name": "weather-app",
   "version": "1.0.0",
   "description": "",
@@ -15,11 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-loader": "^9.1.0",
-    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",
     "react-scripts": "^5.0.1",
-    "react-slick": "^0.29.0",
     "swiper": "^8.4.5"
   },
   "devDependencies": {
